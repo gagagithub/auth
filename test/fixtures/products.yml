@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  productname: MyString
+  productdes: MyString
+  canvasid: 1
+
+two:
+  email: MyString
+  productname: MyString
+  productdes: MyString
+  canvasid: 1

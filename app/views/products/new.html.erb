@@ -1,0 +1,19 @@
+<div class ="container">
+<h1>New Prodcut</h1>
+
+<%= form_for @product do |f| %>
+
+<p>
+	<%= f.label :productname %><br />
+	<%= f.text_field :productname %>
+</p>
+
+<p>
+	<%= f.label :productdes %><br />
+	<%= f.text_area :productdes %><br />
+</p>
+
+<p class="button"><%= f.submit %></p>
+
+<% end %>
+</div>
