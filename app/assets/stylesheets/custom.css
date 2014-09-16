@@ -1,0 +1,39 @@
+
+.jumbotron{
+	width: 1400px;
+    height:760px;
+    background-image:url('intro-bg-mtn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container{
+	position: relative;
+	top:150px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	display: block;
+	width:800px;	
+	font-size:60px;
+	color:#000;
+	margin:0 0 35px 0;
+	font-family: Hiragino Sans GB, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.jumbotron p{
+	font-size: 25px;
+	margin:0 0 35px 0;
+	line-height:1.6;
+	display: block;
+	width: 700px;
+	padding-left:70px;
+	font-family: Hiragino Sans GB, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-inline{
+	padding-right:220px;
+}
